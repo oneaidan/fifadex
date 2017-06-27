@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD9CF92E1F02F8CB00F7902A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9CF92D1F02F8CB00F7902A /* AppDelegate.swift */; };
+		DD9CF9301F02F8CB00F7902A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9CF92F1F02F8CB00F7902A /* ViewController.swift */; };
+		DD9CF9331F02F8CB00F7902A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD9CF9311F02F8CB00F7902A /* Main.storyboard */; };
+		DD9CF9361F02F8CB00F7902A /* fifadex.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD9CF9341F02F8CB00F7902A /* fifadex.xcdatamodeld */; };
+		DD9CF9381F02F8CB00F7902A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD9CF9371F02F8CB00F7902A /* Assets.xcassets */; };
+		DD9CF93B1F02F8CB00F7902A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD9CF9391F02F8CB00F7902A /* LaunchScreen.storyboard */; };
+		DD9CF9461F02F8CB00F7902A /* fifadexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9CF9451F02F8CB00F7902A /* fifadexTests.swift */; };
+		DD9CF9511F02F8CB00F7902A /* fifadexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9CF9501F02F8CB00F7902A /* fifadexUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD9CF9421F02F8CB00F7902A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD9CF9221F02F8CB00F7902A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD9CF9291F02F8CB00F7902A;
+			remoteInfo = fifadex;
+		};
+		DD9CF94D1F02F8CB00F7902A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD9CF9221F02F8CB00F7902A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD9CF9291F02F8CB00F7902A;
+			remoteInfo = fifadex;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD9CF92A1F02F8CB00F7902A /* fifadex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fifadex.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD9CF92D1F02F8CB00F7902A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD9CF92F1F02F8CB00F7902A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD9CF9321F02F8CB00F7902A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD9CF9351F02F8CB00F7902A /* fifadex.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = fifadex.xcdatamodel; sourceTree = "<group>"; };
+		DD9CF9371F02F8CB00F7902A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD9CF93A1F02F8CB00F7902A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD9CF93C1F02F8CB00F7902A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD9CF9411F02F8CB00F7902A /* fifadexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fifadexTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD9CF9451F02F8CB00F7902A /* fifadexTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fifadexTests.swift; sourceTree = "<group>"; };
+		DD9CF9471F02F8CB00F7902A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD9CF94C1F02F8CB00F7902A /* fifadexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fifadexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD9CF9501F02F8CB00F7902A /* fifadexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fifadexUITests.swift; sourceTree = "<group>"; };
+		DD9CF9521F02F8CB00F7902A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD9CF9271F02F8CB00F7902A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9CF93E1F02F8CB00F7902A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9CF9491F02F8CB00F7902A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD9CF9211F02F8CA00F7902A = {
+			isa = PBXGroup;
+			children = (
+				DD9CF92C1F02F8CB00F7902A /* fifadex */,
+				DD9CF9441F02F8CB00F7902A /* fifadexTests */,
+				DD9CF94F1F02F8CB00F7902A /* fifadexUITests */,
+				DD9CF92B1F02F8CB00F7902A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD9CF92B1F02F8CB00F7902A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD9CF92A1F02F8CB00F7902A /* fifadex.app */,
+				DD9CF9411F02F8CB00F7902A /* fifadexTests.xctest */,
+				DD9CF94C1F02F8CB00F7902A /* fifadexUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD9CF92C1F02F8CB00F7902A /* fifadex */ = {
+			isa = PBXGroup;
+			children = (
+				DD9CF92D1F02F8CB00F7902A /* AppDelegate.swift */,
+				DD9CF92F1F02F8CB00F7902A /* ViewController.swift */,
+				DD9CF9311F02F8CB00F7902A /* Main.storyboard */,
+				DD9CF9371F02F8CB00F7902A /* Assets.xcassets */,
+				DD9CF9391F02F8CB00F7902A /* LaunchScreen.storyboard */,
+				DD9CF93C1F02F8CB00F7902A /* Info.plist */,
+				DD9CF9341F02F8CB00F7902A /* fifadex.xcdatamodeld */,
+			);
+			path = fifadex;
+			sourceTree = "<group>";
+		};
+		DD9CF9441F02F8CB00F7902A /* fifadexTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD9CF9451F02F8CB00F7902A /* fifadexTests.swift */,
+				DD9CF9471F02F8CB00F7902A /* Info.plist */,
+			);
+			path = fifadexTests;
+			sourceTree = "<group>";
+		};
+		DD9CF94F1F02F8CB00F7902A /* fifadexUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD9CF9501F02F8CB00F7902A /* fifadexUITests.swift */,
+				DD9CF9521F02F8CB00F7902A /* Info.plist */,
+			);
+			path = fifadexUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD9CF9291F02F8CB00F7902A /* fifadex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD9CF9551F02F8CB00F7902A /* Build configuration list for PBXNativeTarget "fifadex" */;
+			buildPhases = (
+				DD9CF9261F02F8CB00F7902A /* Sources */,
+				DD9CF9271F02F8CB00F7902A /* Frameworks */,
+				DD9CF9281F02F8CB00F7902A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fifadex;
+			productName = fifadex;
+			productReference = DD9CF92A1F02F8CB00F7902A /* fifadex.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD9CF9401F02F8CB00F7902A /* fifadexTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD9CF9581F02F8CB00F7902A /* Build configuration list for PBXNativeTarget "fifadexTests" */;
+			buildPhases = (
+				DD9CF93D1F02F8CB00F7902A /* Sources */,
+				DD9CF93E1F02F8CB00F7902A /* Frameworks */,
+				DD9CF93F1F02F8CB00F7902A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD9CF9431F02F8CB00F7902A /* PBXTargetDependency */,
+			);
+			name = fifadexTests;
+			productName = fifadexTests;
+			productReference = DD9CF9411F02F8CB00F7902A /* fifadexTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD9CF94B1F02F8CB00F7902A /* fifadexUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD9CF95B1F02F8CB00F7902A /* Build configuration list for PBXNativeTarget "fifadexUITests" */;
+			buildPhases = (
+				DD9CF9481F02F8CB00F7902A /* Sources */,
+				DD9CF9491F02F8CB00F7902A /* Frameworks */,
+				DD9CF94A1F02F8CB00F7902A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD9CF94E1F02F8CB00F7902A /* PBXTargetDependency */,
+			);
+			name = fifadexUITests;
+			productName = fifadexUITests;
+			productReference = DD9CF94C1F02F8CB00F7902A /* fifadexUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD9CF9221F02F8CB00F7902A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = oneaidan;
+				TargetAttributes = {
+					DD9CF9291F02F8CB00F7902A = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6Q548S2UJ5;
+						ProvisioningStyle = Automatic;
+					};
+					DD9CF9401F02F8CB00F7902A = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6Q548S2UJ5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DD9CF9291F02F8CB00F7902A;
+					};
+					DD9CF94B1F02F8CB00F7902A = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6Q548S2UJ5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DD9CF9291F02F8CB00F7902A;
+					};
+				};
+			};
+			buildConfigurationList = DD9CF9251F02F8CB00F7902A /* Build configuration list for PBXProject "fifadex" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD9CF9211F02F8CA00F7902A;
+			productRefGroup = DD9CF92B1F02F8CB00F7902A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD9CF9291F02F8CB00F7902A /* fifadex */,
+				DD9CF9401F02F8CB00F7902A /* fifadexTests */,
+				DD9CF94B1F02F8CB00F7902A /* fifadexUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD9CF9281F02F8CB00F7902A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD9CF93B1F02F8CB00F7902A /* LaunchScreen.storyboard in Resources */,
+				DD9CF9381F02F8CB00F7902A /* Assets.xcassets in Resources */,
+				DD9CF9331F02F8CB00F7902A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9CF93F1F02F8CB00F7902A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9CF94A1F02F8CB00F7902A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD9CF9261F02F8CB00F7902A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD9CF9301F02F8CB00F7902A /* ViewController.swift in Sources */,
+				DD9CF9361F02F8CB00F7902A /* fifadex.xcdatamodeld in Sources */,
+				DD9CF92E1F02F8CB00F7902A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9CF93D1F02F8CB00F7902A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD9CF9461F02F8CB00F7902A /* fifadexTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9CF9481F02F8CB00F7902A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD9CF9511F02F8CB00F7902A /* fifadexUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD9CF9431F02F8CB00F7902A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD9CF9291F02F8CB00F7902A /* fifadex */;
+			targetProxy = DD9CF9421F02F8CB00F7902A /* PBXContainerItemProxy */;
+		};
+		DD9CF94E1F02F8CB00F7902A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD9CF9291F02F8CB00F7902A /* fifadex */;
+			targetProxy = DD9CF94D1F02F8CB00F7902A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD9CF9311F02F8CB00F7902A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD9CF9321F02F8CB00F7902A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD9CF9391F02F8CB00F7902A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD9CF93A1F02F8CB00F7902A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD9CF9531F02F8CB00F7902A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD9CF9541F02F8CB00F7902A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD9CF9561F02F8CB00F7902A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6Q548S2UJ5;
+				INFOPLIST_FILE = fifadex/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Aidan.fifadex;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DD9CF9571F02F8CB00F7902A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6Q548S2UJ5;
+				INFOPLIST_FILE = fifadex/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Aidan.fifadex;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DD9CF9591F02F8CB00F7902A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6Q548S2UJ5;
+				INFOPLIST_FILE = fifadexTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Aidan.fifadexTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fifadex.app/fifadex";
+			};
+			name = Debug;
+		};
+		DD9CF95A1F02F8CB00F7902A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6Q548S2UJ5;
+				INFOPLIST_FILE = fifadexTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Aidan.fifadexTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fifadex.app/fifadex";
+			};
+			name = Release;
+		};
+		DD9CF95C1F02F8CB00F7902A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6Q548S2UJ5;
+				INFOPLIST_FILE = fifadexUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Aidan.fifadexUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = fifadex;
+			};
+			name = Debug;
+		};
+		DD9CF95D1F02F8CB00F7902A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6Q548S2UJ5;
+				INFOPLIST_FILE = fifadexUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Aidan.fifadexUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = fifadex;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD9CF9251F02F8CB00F7902A /* Build configuration list for PBXProject "fifadex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD9CF9531F02F8CB00F7902A /* Debug */,
+				DD9CF9541F02F8CB00F7902A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD9CF9551F02F8CB00F7902A /* Build configuration list for PBXNativeTarget "fifadex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD9CF9561F02F8CB00F7902A /* Debug */,
+				DD9CF9571F02F8CB00F7902A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD9CF9581F02F8CB00F7902A /* Build configuration list for PBXNativeTarget "fifadexTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD9CF9591F02F8CB00F7902A /* Debug */,
+				DD9CF95A1F02F8CB00F7902A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD9CF95B1F02F8CB00F7902A /* Build configuration list for PBXNativeTarget "fifadexUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD9CF95C1F02F8CB00F7902A /* Debug */,
+				DD9CF95D1F02F8CB00F7902A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DD9CF9341F02F8CB00F7902A /* fifadex.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DD9CF9351F02F8CB00F7902A /* fifadex.xcdatamodel */,
+			);
+			currentVersion = DD9CF9351F02F8CB00F7902A /* fifadex.xcdatamodel */;
+			path = fifadex.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DD9CF9221F02F8CB00F7902A /* Project object */;
+}
